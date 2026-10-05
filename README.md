@@ -22,7 +22,7 @@ that says what to fix.
 python -m venv venv && source venv/bin/activate
 pip install "mcp[cli]"
 python generate_data.py
-mcp dev server.py        # opens the MCP Inspector (needs Node.js)
+mcp dev server.py       
 ```
 
 ## Proof it works
